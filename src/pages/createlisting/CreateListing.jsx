@@ -1,5 +1,5 @@
 import React from 'react'
-import "./cretelisting.css"
+import "./createlisting.css"
 
 const CreateListing = () => {
   return (

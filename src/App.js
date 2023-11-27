@@ -1,11 +1,10 @@
 import { Route, Routes, } from 'react-router-dom';
 import './App.css';
 import { CreateListing, ForgotPass, Home, Offers, Profile, SignIn, SignUp } from './pages';
-import Header from './header/Header';
+import Header from './components/header/Header';
 
 function App() {
   return (
-
     <>
       <Header />
       
@@ -21,8 +20,6 @@ function App() {
           <Route path="/create_listing" element={<CreateListing/>} />
 
         </Routes>
-      
-
     </>
        
   );
